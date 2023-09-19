@@ -1,0 +1,634 @@
+@font-face {
+    font-family: 'Couture';
+    src: url('Couture-Bold.woff2') format('woff2'),
+        url('Couture-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url(https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap) ("rel="stylesheet)
+}
+@font-face {
+    font-family: 'Quite Chocolatey';
+    src: url('QuiteChocolatey.woff2') format('woff2'),
+        url('QuiteChocolatey.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+:root {
+    --gutter: 20px;
+}
+*, *::before, *::after {
+    box-sizing: inherit;
+}
+* {
+    box-sizing: border-box;
+}
+body h1 h2 h3 h4 h5 h6 p ul ol {
+    margin: 0;
+    padding: 0;
+}
+.box-1 {
+    background: rgb(209,46,31);
+    background: -moz-linear-gradient(90deg, rgba(209,46,31,1) 0%, rgba(194,31,16,1) 100%);
+    background: -webkit-linear-gradient(90deg, rgba(209,46,31,1) 0%, rgba(194,31,16,1) 100%);
+    background: linear-gradient(90deg, rgba(209,46,31,1) 0%, rgba(194,31,16,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#d12e1f",endColorstr="#c21f10",GradientType=1);
+}
+.container-1 {
+    max-width: 1200px;
+    height: 688px;
+    margin: 0 auto;
+    background-image: url(../img/Layers.png);
+    background-repeat: no-repeat;
+}
+.header-1 {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+.log-text {
+    font-family: 'Quite Chocolatey';
+    font-size: 88.4px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.menu-text {
+    margin: 0;
+}
+.first__list{
+    list-style: none;
+    display: flex;
+    margin: 60px auto 167px;
+}
+.link1 {    
+    width: 85px;
+    height: 37px;
+    background-color: inherit;
+    border-radius: 5px;
+    padding: 11px 15px;
+    margin: 0 1px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;  
+} 
+.link2 {
+    width: 85px;
+    height: 37px;
+    background-color: inherit;
+    border-radius: 5px;
+    padding: 11px 15px;
+    margin: 0 1px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link3 {
+    width: 85px;
+    height: 37px;
+    background-color: inherit;
+    border-radius: 5px;
+    padding: 11px 15px;
+    margin: 0 1px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link4 {
+    width: 85px;
+    height: 37px;
+    background-color: inherit;
+    border-radius: 5px;
+    padding: 11px 15px;
+    margin: 0 1px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link5 {
+    width: 85px;
+    height: 37px;
+    background-color: inherit;
+    border-radius: 5px;
+    padding: 11px 15px;
+    margin: 0 1px;
+    font-family: 'Montserrat';
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    text-decoration: none;
+}
+.link1:hover{
+    background-color: #130e27;
+}
+.link2:hover {
+    background-color: #130e27;
+}
+.link3:hover {
+    background-color: #130e27;
+}
+.link4:hover {
+    background-color: #130e27;
+}
+.link5:hover {
+    background-color: #130e27;
+}
+h1.motto__top-row {
+    margin: 0;
+    padding: 0 20px;
+    font-family: 'Montserrat';
+    font-size: 90px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #130e27;
+}
+p.motto__bottom-row {
+    margin: 0 0 47px;
+    color: #ffffff;
+}
+.first_text {
+    max-width: 528px;
+    padding: 0 20px;
+    margin-bottom: 156px;
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ffffff;
+}
+
+
+
+.box-2 {
+    background-color: #ffffff;
+}
+.container-2 {
+    max-width: 1200px;
+    height: 482px;
+    margin: 0 auto 64px;
+    background-color: #ffffff;
+}
+.header-2 {
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.header-text {
+    margin: 0 0 97px;
+    padding-top: 45px;
+    font-family: 'Couture';
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #c62314;
+}
+.blue-word {
+    color: #130e27;
+}
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;    
+}
+.item {
+    width: 178px;
+    justify-content: center;
+}
+.icons {
+    margin: 0 auto;
+}
+.item__text {
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #161616;
+    text-align: center;
+    margin: 46px 0;
+}
+img.logo1 {
+    margin-left: 5px;
+    padding-top: 8px;
+    padding-bottom: 7px;    
+}
+img.logo2 {
+    margin-left: 16px;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
+img.logo3 {
+    margin-left: 26px;
+}
+img.logo4 {
+    margin-left: 13px;
+    padding-top: 3px;
+    padding-bottom: 1px;
+}
+
+
+
+.box-3 {
+    background-color: #130e27;
+}
+.container-3 {
+    max-width: 1200px;
+    height: 123px;
+    margin: 0 auto;
+    background-color: #130e27;
+}
+.header-3 {
+    margin:  auto;
+    padding-left: 20px;
+    padding-top: 31px;
+    display: flex;
+    justify-content: space-between;
+}
+.text__about__us {
+    width: 635px;
+    padding: 0;
+    margin: 0;
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ffffff;
+}
+.Btn-Box {
+    margin-top: 20px;
+}
+.Button-class {
+    text-decoration: none;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    width: 269px;
+    height: 64px;
+    background-color: #c62314;
+    border-radius: 5px;
+    padding: 24px 64px 23px;
+}
+.Button-class:hover {
+    color: #c62314;
+    background-color: #ffffff;
+}
+
+
+.box-4 {
+    background-color: #efefef;
+}
+.container-4 {
+    max-width: 1200px;
+    height: 635px;
+    margin: 0 auto;
+    background-color: #efefef;
+    padding: 0 0 0 16px;
+}
+.header-4 {
+    padding-top: 46px;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 50px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #130e27;
+    margin-top: 0;
+    margin-bottom: 42px;
+}
+.card-box {
+    margin-top: 0px;
+    margin-bottom: 64px;
+    padding-top: 0;
+    padding-bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    border: 0px solid;
+}
+.pricing__card {
+    padding-bottom: 0;
+    padding-top: 0;
+    margin-bottom: 0;
+    margin-top: 0;
+    width: 342px;
+    height: 405px;
+    background-color: #ffffff;
+}
+.category {
+    text-align: center;
+    font-family: 'PT Serif';
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #161616;
+    padding-top: 32px;
+    padding-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 23px;
+}
+.price {
+    margin-top: 0;
+    margin-bottom: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 60px;
+    line-height: 80px;
+    font-weight: 700;
+    color: #c62314;
+}
+.services-list{
+    padding-top: 12px;
+    padding-bottom: 0;
+    padding-left: 0;
+    list-style: none;
+    text-align: center;
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #161616;
+    margin-top: 0;
+    margin-bottom: 28px;
+}
+.box__for__last-btn{
+    margin: 0;
+    padding-left: 65px;
+}
+.last-button {
+    padding-top: 11px;
+    justify-content: center;
+    width: 205px;
+    height: 49px;
+    background-color: #130e27;
+    font-family: Montserrat;
+    font-size: 22px;
+    line-height: 28px;
+    font-weight: 400;
+    color: #ffffff;
+    text-align: center;
+    border-radius: 5px;
+}
+a.last-button-link{
+    text-decoration: none;
+}
+.last-button:hover {
+    background-color: #c62314;
+}
+
+
+
+.box-5 {
+    background-color: #130e27;
+}
+.container-5 {
+    max-width: 1200px;
+    height: 188px;
+    margin: 0 auto;
+    background-color: #130e27;
+}
+.footer {
+    display: flex;
+    justify-content: space-between;
+}
+.footer-text {
+    padding: 79px 0 0;
+    font-family: 'PT Serif';
+    font-size: 20px;
+    line-height: 22px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 88px;
+}
+.footer-link {
+    color: #c62314;
+    text-decoration: none;
+}
+.footer-logo-link {
+    padding-top: 80px;
+    text-decoration: none;
+    font-family: 'Quite Chocolatey';
+    font-size: 64.4px;
+    line-height: 23px;
+    font-weight: 400;
+    color: #c62314;
+}
+
+
+
+@media screen and (max-width: 992px) {
+    .container-1 {
+        max-width: 100%
+    }
+    .first__list {
+        padding: 60px 0 0;
+        margin: 0;
+    }
+    .menu-text {
+        height: 73px;
+        width: 559px;
+        margin-bottom: 80px;
+    }
+    .container-1{
+        height: 625px;
+    }
+    .cards {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    .header-text {
+        text-align: center;
+        margin: 15px auto;
+    }
+    .container-2 {
+        height: 670px;
+    }
+    .container-3 {
+        height: 173px;
+    }
+    .Btn-Box {
+        display: flex;
+        margin: 7px 15px;
+    }
+    .Button-class {
+        text-align: center;
+        width: 120px;
+        height: 100px;
+        padding: 20px 25px;
+        margin: 0 7px;
+    }
+    .box__for__last-btn {
+        margin: 0;
+        padding-left: 70px;
+    }
+    .container-4 {
+        height: 1400px;
+    }
+    .card-box {
+        flex-direction: column;
+    }
+    .pricing__card {
+        margin-left: 100px;
+    }
+    .footer-logo-link {
+        padding-top: 45px;
+        padding-right: 10px;
+        margin-left: 20px;
+    }
+    .container-5 {
+        height: 110px;
+    }
+    .footer-text {
+        padding: 33px 0 0;
+    }
+}
+@media screen and (max-width: 768px) {
+    .first__list {
+        padding: 0;
+        margin: 0;
+    }
+    .menu-text {
+        height: 73px;
+        width: 559px;
+    }
+    .container-1{
+        height: 625px;
+    }
+    .cards {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    .header-text {
+        text-align: center;
+        margin: 15px auto;
+    }
+    .container-2 {
+        height: 670px;
+    }
+    .container-3 {
+        height: 173px;
+    }
+    .Btn-Box {
+        display: flex;
+        margin: 7px 15px;
+    }
+    .Button-class {
+        text-align: center;
+        width: 120px;
+        height: 100px;
+        padding: 20px 25px;
+        margin: 0 7px;
+    }
+    .box__for__last-btn {
+        margin: 0;
+        padding-left: 70px;
+    }
+    .container-4 {
+        height: 1400px;
+    }
+    .card-box {
+        flex-direction: column;
+    }
+    .pricing__card {
+        margin-left: 100px;
+    }
+    .footer-logo-link {
+        padding-top: 45px;
+        padding-right: 10px;
+        margin-left: 20px;
+    }
+    .container-5 {
+        height: 110px;
+    }
+    .footer-text {
+        padding: 33px 0 0;
+    }
+}
+@media screen and (max-width: 576px) {
+    .first__list {
+        padding: 0;
+        margin: 0;
+    }
+    .menu-text {
+        height: 73px;
+        width: 559px;
+    }
+    .container-1{
+        height: 625px;
+    }
+    .cards {
+        flex-wrap: wrap;
+        display: flex;
+        justify-content: space-around;
+        margin: 0 auto;
+    }
+    .header-text {
+        text-align: center;
+        margin: 15px auto;
+    }
+    .container-2 {
+        height: 670px;
+    }
+    .container-3 {
+        height: 173px;
+    }
+    .Btn-Box {
+        display: flex;
+        margin: 7px 15px;
+    }
+    .Button-class {
+        text-align: center;
+        width: 120px;
+        height: 100px;
+        padding: 20px 25px;
+        margin: 0 7px;
+    }
+    .box__for__last-btn {
+        margin: 0;
+        padding-left: 70px;
+    }
+    .container-4 {
+        height: 1400px;
+    }
+    .card-box {
+        flex-direction: column;
+    }
+    .pricing__card {
+        margin-left: 100px;
+    }
+    .footer-logo-link {
+        padding-top: 45px;
+        padding-right: 10px;
+        margin-left: 20px;
+    }
+    .container-5 {
+        height: 110px;
+    }
+    .footer-text {
+        padding: 33px 0 0;
+    }
+}
